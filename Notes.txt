@@ -1,0 +1,49 @@
+What is node js?
+
+Node.js is an open-source, cross-platform JavaScript runtime environment that allows developers to execute JavaScript code outside of a web browser, primarily for building scalable and high-performance server-side and network applications.
+
+ what is Open Source?
+
+Open source software is software whose source code is publicly available, allowing anyone to view, modify, and distribute it freely.
+
+ what is Cross-Platform?
+
+Cross-platform refers to software that can run on multiple operating systems such as Windows, macOS, and Linux without modification.
+
+ what is Runtime Environment?
+
+A runtime environment is a software framework that provides the necessary resources and services to execute a program, including libraries, memory management, and system support.
+
+Express.js → Framework
+
+JavaScript → Language
+
+Node.js → Runtime environment
+
+Short History of Node.js
+
+Node.js was created in 2009 by Ryan Dahl. It was developed to improve the performance of web applications by using an event-driven, non-blocking I/O model. Node.js is built on Google’s V8 JavaScript engine, which allows fast execution of JavaScript code. In 2015, the Node.js Foundation was established to support its development and growth. Today, Node.js is widely used for building scalable and high-performance server-side applications.
+
+
+REPL stands for:
+
+Read – Evaluate – Print – Loop
+What is REPL? (Simple & Formal)
+
+REPL is an interactive environment where code is entered, executed, and the result is immediately displayed, repeating this process continuously.
+
+REPL in Node.js
+
+In Node.js, REPL allows you to:
+
+Write JavaScript code line by line
+
+Get instant output
+
+Test small pieces of code quickly
+
+what is  module?
+
+Definition of Module
+
+A module is a reusable block of code in Node.js, encapsulated in its own file, which can be exported and imported in other files to organize and manage code efficiently.s
