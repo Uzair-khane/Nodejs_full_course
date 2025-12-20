@@ -1,5 +1,5 @@
 const path = require("path")
-
+// first i create a path using join and then store in a filepath varible 
 let filePath = path.join("folder","file.txt")
 console.log(filePath)
 // this will show the absolute path 
