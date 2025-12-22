@@ -1,0 +1,2 @@
+welcome from Node js 
+ hello everyone 
