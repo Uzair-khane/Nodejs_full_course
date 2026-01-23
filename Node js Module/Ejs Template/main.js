@@ -1,6 +1,7 @@
 const express = require("express");
 const app = express();
 app.set("view engine", "ejs");
+app.use(express.urlencoded({extended:false}))
 // simple only render ejs file  
 app.get("/",(req,res)=>{
     res.render("home")
@@ -19,7 +20,15 @@ app.get("/profile",(req,res)=>{
     })
 })
 
-
+// form 
+app.get('/form',(req,res)=>{
+    res.render("form")
+})
+app.post("/submit",(req,res)=>{
+ const name = req.body.myname;
+ const message = `hello ${name} you login succsesfully`
+ res.send(message)
+})
 app.listen("3000",()=>{
     console.log("server start")
 })
